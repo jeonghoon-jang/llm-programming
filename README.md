@@ -4,20 +4,20 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
 ![GPU](https://img.shields.io/badge/Colab-T4%2016GB-F9AB00?logo=googlecolab&logoColor=white)
 
-Re-implementing the core building blocks of language models in PyTorch, one line at a time —
+Study log for the core building blocks of language models in PyTorch —
 from recurrent models to attention, Transformers, and pretrained LLMs.
 
 **Coursework:** *LLM Programming*, Dept. of Computer Science, Sangmyung University (Fall 2026)
 
 ---
 
-## Why this repo
+## How I study
 
-Lab code is not copied and run as-is. Each lab is rebuilt from scratch, and every notebook records:
+Each lab follows the course code line by line, then goes one step further:
 
-- **Tensor shapes** at each step (`[batch, seq, dim]`)
-- **One or two controlled experiments** — prediction first, then the measured result
-- **Takeaways** in [`notes/`](notes/) (3-line summary + key equations, shapes, and masking logic)
+- **Annotated code** — what each line does, with tensor shapes (`[batch, seq, dim]`)
+- **Experiments** — change one thing, predict the result first, then measure it
+- **Notes** in [`notes/`](notes/) — 3-line takeaways + key equations, shapes, and masking logic
 
 ## Labs
 
@@ -49,6 +49,6 @@ Notebooks import the shared code as `import common as cm`
 
 ## Notes
 
-- Course slides and the instructor's original code are **not** redistributed here.
-  All code is my own re-implementation; parts reconstructed without a reference are marked `# [추측]`.
+- Lab code is based on the course materials of *LLM Programming* (Sangmyung University).
+  Annotations, experiments, and notes are my own; parts reconstructed without a reference are marked `# [추측]`.
 - Environment: Google Colab (free tier, NVIDIA T4).
