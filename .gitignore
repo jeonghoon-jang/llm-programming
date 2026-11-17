@@ -1,0 +1,27 @@
+# ---- data (교재 데이터, BeRP 등) ----
+data/*
+!data/.gitkeep
+
+# ---- Hugging Face / 모델 캐시, 체크포인트 ----
+.cache/
+hf_cache/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+runs/
+wandb/
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- 강의자료 실수 업로드 방지 ----
+*.pdf
+
+# ---- 기타 ----
+.env
+.DS_Store
