@@ -1,6 +1,6 @@
 # LLM Programming — From RNNs to Pretrained LLMs
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<GITHUB_ID>/llm-programming/blob/main/labs/lab05_transformer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jeonghoon-jang/llm-programming/blob/main/labs/lab05_transformer.ipynb)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
 ![GPU](https://img.shields.io/badge/Colab-T4%2016GB-F9AB00?logo=googlecolab&logoColor=white)
 
@@ -24,8 +24,8 @@ Each lab follows the course code line by line, then goes one step further:
 | # | Topic | What gets implemented | Notebook | Status |
 |---|---|---|---|---|
 | 02–04 | Prerequisites | N-gram, Word2Vec, RNN, LSTM → consolidated into `common/`, `models/` | — | 🚧 |
-| 05 | Transformer | Scaled dot-product attention · causal & padding masks · Transformer block · RNN vs LSTM vs Attention vs Transformer (samples, #params, loss curves) · BeRP dataset | [Colab](https://colab.research.google.com/github/<GITHUB_ID>/llm-programming/blob/main/labs/lab05_transformer.ipynb) | 🚧 |
-| 06 | Pretrained LLM | Tokenizer · Qwen2.5-1.5B loading · logits → next-token distribution · LoRA · RAG | [Colab](https://colab.research.google.com/github/<GITHUB_ID>/llm-programming/blob/main/labs/lab06_prellm.ipynb) | ⏳ |
+| 05 | Transformer | Scaled dot-product attention · causal & padding masks · Transformer block · RNN vs LSTM vs Attention vs Transformer (samples, #params, loss curves) · BeRP dataset | [Colab](https://colab.research.google.com/github/jeonghoon-jang/llm-programming/blob/main/labs/lab05_transformer.ipynb) | 🚧 |
+| 06 | Pretrained LLM | Tokenizer · Qwen2.5-1.5B loading · logits → next-token distribution · LoRA · RAG | [Colab](https://colab.research.google.com/github/jeonghoon-jang/llm-programming/blob/main/labs/lab06_prellm.ipynb) | ⏳ |
 
 ## Structure
 
